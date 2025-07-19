@@ -1,0 +1,136 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #87CEEB, #001F54);
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container */
+.main-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 40px 20px 20px;
+}
+
+.profile-pic {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  object-fit: cover;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #fff;
+}
+
+header p {
+  font-size: 1.1em;
+  color: #fff;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Sections */
+section {
+  background: #fff;
+  margin: 30px 0;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #f76b1c;
+  margin-bottom: 15px;
+}
+
+.project h3 {
+  margin-top: 15px;
+  color: #444;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 40px;
+  .nav-button {
+  background-color: #ffcce0;         /* Light pink */
+  color: #000;                        /* Text color */
+  padding: 12px 24px;
+  margin: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.3); /* Dark blurred border */
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  backdrop-filter: blur(2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #f9bcd0;       /* Slightly darker pink on hover */
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+  
+}
+
+.nav-button {
+      background-color: #ffcce0;         /* Light pink */
+      color: #000;                        /* Text color */
+      padding: 12px 24px;
+      margin: 10px;
+      border: 2px solid rgba(0, 0, 0, 0.3); /* Dark blurred border */
+      border-radius: 25px;
+      font-size: 16px;
+      cursor: pointer;
+      backdrop-filter: blur(2px);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      transition: 0.3s ease;
+    }
+
+ .nav-button:hover {
+      background-color: #f9bcd0;
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+    }
+}
